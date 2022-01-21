@@ -9,33 +9,35 @@ This example borrows from the HashiCorp Terraform registry docs found [here](htt
 
 ## Build Environment
 
-These instructions assume you already have Google Cloud access and you're working in the Cloud Shell. From here clone the repo and follow the build steps below.
+These instructions assume you already have Google Cloud access and you're
+working in the Cloud Shell. From here clone the repo and follow the build steps
+below.
 
-    ```bash
-    git clone https://github.com/netserf/terraform-gcp-gke-demo.git
-    ```
+```bash
+git clone https://github.com/netserf/terraform-gcp-gke-demo.git
+```
 
 ## Build Steps
 
-    ```bash
-    cd terraform
-    export GOOGLE_CLOUD_PROJECT=[project-id]
-    ```
+```bash
+cd terraform
+export GOOGLE_CLOUD_PROJECT=[project-id]
+```
 
 Pull the providers:
 
-    ```bash
-    terraform init
-    ```
+```bash
+terraform init
+```
 
 Apply the updates:
 
-    ```bash
-    terraform apply
-    ```
+```bash
+terraform apply
+```
 
 ## Clean Up
 
-    ```bash
-    terraform destroy
-    ```
+```bash
+terraform destroy
+```

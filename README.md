@@ -5,7 +5,9 @@
 
 Demo build for a Google Cloud GKE cluster using Terraform.
 
-This example borrows from the HashiCorp Terraform registry docs found [here](https://registry.terraform.io/modules/terraform-google-modules/kubernetes-engine/google/latest). Modifications have been made to simplify the examples for demos.
+This example borrows from the HashiCorp Terraform registry docs found
+[here](https://registry.terraform.io/modules/terraform-google-modules/kubernetes-engine/google/latest)
+. Modifications have been made to simplify the examples for demos.
 
 ## Build Environment
 

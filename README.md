@@ -1,7 +1,8 @@
 # terraform-gcp-gke-demo
 
-[![Actions Status](https://github.com/netserf/terraform-gcp-vpc-demo/workflows/Terraform%20Lint/badge.svg)](https://github.com/netserf/terraform-gcp-vpc-demo/actions)
-[![Actions Status](https://github.com/netserf/terraform-gcp-vpc-demo/workflows/Markdown%20Lint/badge.svg)](https://github.com/netserf/terraform-gcp-vpc-demo/actions)
+[![Actions Status](https://github.com/netserf/terraform-gcp-gke-demo/workflows/Terraform%20Lint/badge.svg)](https://github.com/netserf/terraform-gcp-gke-demo/actions)
+[![Actions Status](https://github.com/netserf/terraform-gcp-gke-demo/workflows/Markdown%20Lint/badge.svg)](https://github.com/netserf/terraform-gcp-gke-demo/actions)
+[![Actions Status](https://github.com/netserf/terraform-gcp-gke-demo/workflows/Markdown%20Links/badge.svg)](https://github.com/netserf/terraform-gcp-gke-demo/actions)
 
 Demo build for a Google Cloud GKE cluster using Terraform.
 

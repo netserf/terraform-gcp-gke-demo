@@ -1,6 +1,9 @@
 # terraform-gcp-gke-demo
 
-    Demo build for a Google Cloud GKE cluster using Terraform.
+[![Actions Status](https://github.com/netserf/terraform-gcp-vpc-demo/workflows/Terraform%20Lint/badge.svg)](https://github.com/netserf/terraform-gcp-vpc-demo/actions)
+[![Actions Status](https://github.com/netserf/terraform-gcp-vpc-demo/workflows/Markdown%20Lint/badge.svg)](https://github.com/netserf/terraform-gcp-vpc-demo/actions)
+
+Demo build for a Google Cloud GKE cluster using Terraform.
 
 This example borrows from the HashiCorp Terraform registry docs found [here](https://registry.terraform.io/modules/terraform-google-modules/kubernetes-engine/google/latest). Modifications have been made to simplify the examples for demos.
 

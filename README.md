@@ -33,6 +33,12 @@ project_id = "REPLACE_ME"
 region     = "REPLACE_ME"
 ```
 
+Enable the GCP container API:
+
+```bash
+gcloud services enable container.googleapis.com
+```
+
 ## Build Steps
 
 Initialize your directory:

@@ -6,8 +6,8 @@
 
 Demo build for a Google Cloud GKE cluster using Terraform.
 
-This example borrows from the HashiCorp Terraform registry docs found
-[here](https://registry.terraform.io/modules/terraform-google-modules/kubernetes-engine/google/latest)
+This example borrows from the HashiCorp Terraform tutorials found
+[here](https://learn.hashicorp.com/tutorials/terraform/gke)
 . Modifications have been made to simplify the examples for demos.
 
 ## Build Environment
@@ -20,14 +20,22 @@ below.
 git clone https://github.com/netserf/terraform-gcp-gke-demo.git
 ```
 
-## Build Steps
+## Environment Prep
+
+Replace the values in your terraform.tfvars file with your project_id and
+region.
 
 ```bash
 cd terraform
-export GOOGLE_CLOUD_PROJECT=[project-id]
+
+# terraform.tfvars
+project_id = "REPLACE_ME"
+region     = "REPLACE_ME"
 ```
 
-Pull the providers:
+## Build Steps
+
+Initialize your directory:
 
 ```bash
 terraform init

@@ -47,6 +47,20 @@ Apply the updates:
 terraform apply
 ```
 
+## Try Kubernetes
+
+Setup kubectl credentials:
+
+```bash
+gcloud container clusters get-credentials [cluster-name] --region [region]
+```
+
+Check the cluster:
+
+```bash
+kubectl get nodes
+```
+
 ## Clean Up
 
 ```bash
